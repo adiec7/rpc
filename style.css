@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: royalblue;
+}
+header {
+    background: rebeccapurple;
+    padding: 20px;
+}
+header h1{
+    color: snow;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.score{
+    margin: 20px auto;
+    border: 5px solid silver;
+    width: 200px;
+    color: antiquewhite;
+    font-size: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+.badge{
+    background-color: darkturquoise;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+#user{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#comp{
+    position: absolute;
+    top: 30px;
+    right: -35px;
+}
+.result{
+    font-size: 20px;
+    color: turquoise;
+}
+.result h2{
+    text-align: center;
+    font-family: Genena;
+    font-weight: bold;
+}
+.choice{
+    margin: 50px 0px;
+    text-align: center;
+}
+.choices{
+    display: inline-block;
+    border: 4px solid silver;
+    border-radius: 15%;
+    margin: 0 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.choices:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+#message{
+    text-align: center;
+    font-size: 25px;
+    color: turquoise;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.green{
+    border: 4px solid green;
+    box-shadow: 0 0 10px green;
+}
+.red {
+    border: 4px solid red;
+    box-shadow: 0 0 10px red;
+}
+.grey{
+    border: 4px solid gray;
+    box-shadow: 0 0 10px gray;
+}
